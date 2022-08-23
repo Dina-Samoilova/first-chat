@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/first-chat/static/css/main.c1e93818.css",
+    "main.js": "/first-chat/static/js/main.d2e0909b.js",
+    "static/js/787.6f726199.chunk.js": "/first-chat/static/js/787.6f726199.chunk.js",
+    "static/media/person1.jpg": "/first-chat/static/media/person1.7e61fcd5fb26720a4fca.jpg",
+    "static/media/person5.jpg": "/first-chat/static/media/person5.a3904a183d93b2bc2e79.jpg",
+    "static/media/person4.jpg": "/first-chat/static/media/person4.0a327772fbac0d30dea1.jpg",
+    "static/media/person6.jpg": "/first-chat/static/media/person6.f53e03355da1777ac0d1.jpg",
+    "static/media/person2.jpg": "/first-chat/static/media/person2.676d559f273cb4bd1425.jpg",
+    "static/media/person3.jpg": "/first-chat/static/media/person3.8ffedf3b2c78bd03801f.jpg",
+    "static/media/notification.svg?s3g3t9": "/first-chat/static/media/notification.5d0158671dd860c714c4.svg",
+    "static/media/notification.eot": "/first-chat/static/media/notification.3657084dc0419605a91c.eot",
+    "static/media/notification.woff?s3g3t9": "/first-chat/static/media/notification.c392cd33d9d9de730f9d.woff",
+    "static/media/notification.ttf?s3g3t9": "/first-chat/static/media/notification.c5d9251ea82e42f75381.ttf",
+    "static/media/search.svg": "/first-chat/static/media/search.4c72978da58a6878cf55.svg",
+    "static/media/x-mark-cicle.svg": "/first-chat/static/media/x-mark-cicle.34cb960dd99f745144f3.svg",
+    "index.html": "/first-chat/index.html",
+    "static/media/checked-cicle.svg": "/first-chat/static/media/checked-cicle.4d236cc6b5c511de3e56.svg",
+    "static/media/user.svg": "/first-chat/static/media/user.bb5177ba9a3dd3cec6a2d4cb6707e7a9.svg",
+    "static/media/send-paper-plane.svg": "/first-chat/static/media/send-paper-plane.57ea2ea1b3c3109a63c7.svg",
+    "static/media/send-paper-plane-dark.svg": "/first-chat/static/media/send-paper-plane-dark.5c2063a104b7e2a9e3ab.svg",
+    "main.c1e93818.css.map": "/first-chat/static/css/main.c1e93818.css.map",
+    "main.d2e0909b.js.map": "/first-chat/static/js/main.d2e0909b.js.map",
+    "787.6f726199.chunk.js.map": "/first-chat/static/js/787.6f726199.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1e93818.css",
+    "static/js/main.d2e0909b.js"
+  ]
+}

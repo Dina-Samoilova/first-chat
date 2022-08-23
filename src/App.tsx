@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import 'react-notifications/lib/notifications.css';
+import { NotificationContainer } from 'react-notifications';
+import { Routes, Route } from 'react-router-dom';
+import { Login } from './components/Login';
+import { ChatPage } from './components/ChatPage';
+import { PageNotFound } from './components/PageNotFound';
+import { WrongData } from './components/WrongData';
 
-function App() {
+import { RequireAuth } from './hoc/RequireAuth';
+import { AuthProvider } from './hoc/AuthProvider';
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AuthProvider>
+      <Routes>
+        <Route path="/" element={
+          <RequireAuth>
+            <ChatPage />
+          </RequireAuth>
+        } />
+        <Route path="/login" element={<Login />} />
+        <Route path="/wrong" element={<WrongData />} />
+        <Route path="*" element={<PageNotFound />} />
+      </Routes>
+      <NotificationContainer />
+    </AuthProvider>
   );
-}
+};
 
 export default App;

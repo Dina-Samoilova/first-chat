@@ -1,0 +1,56 @@
+@import '../../utils';
+
+.message {
+  padding-inline: calc($twenty-pixels / 2);
+
+  &:first-child {
+    padding-top: calc($twenty-pixels / 2);
+  }
+
+  &__item {
+    display: flex;
+    gap: calc($twenty-pixels / 2);
+    align-items: center;
+    margin-bottom: calc($twenty-pixels / 2);
+
+    &--me {
+      justify-content: end;
+    }
+
+    &-block {
+      display: flex;
+      flex-direction: column;
+
+      &--me {
+        align-items: flex-end;
+      }
+    }
+
+    &-text {
+      border-radius: $twenty-pixels;
+      padding: calc($twenty-pixels / 2);
+      font-size: 12px;
+
+      &--notMe {
+        background-color: $primary-gray;
+        color: $white;
+      }
+
+      &--me {
+        background-color: $lighter-gray;
+        color: $primary-gray;
+      }
+    }
+
+    &-time {
+      color: $gray;
+      font-size: 8px;
+      padding: 0 calc($twenty-pixels / 2);
+      margin-top: calc($twenty-pixels / 4);
+    }
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

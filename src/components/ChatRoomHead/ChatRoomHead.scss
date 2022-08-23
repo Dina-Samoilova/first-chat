@@ -1,0 +1,41 @@
+@import '../../utils';
+
+.chatRoom__head {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: $twenty-pixels;
+  background-color: $light-gray;
+  border-bottom: 1px solid $gray;
+
+  &__user {
+    margin-left: calc($twenty-pixels / 2);
+    @include userBlockWithStatus;
+  }
+
+  &__userName {
+    margin-left: calc($twenty-pixels / 2);
+    font-weight: 600;
+  }
+
+  &__backBtn {
+    border: 1px solid $gray;
+    border-radius: $twenty-pixels;
+    background-color: $light-gray;
+    color: $primary-gray;
+    padding: 5px 10px;
+    display: none;
+
+    &:hover {
+      border-color: $primary-gray;
+      background-color: $gray-shadow;
+    }
+
+    &--mobile {
+      @include onMobile {
+        display: contents;
+      }
+    }
+  }
+}

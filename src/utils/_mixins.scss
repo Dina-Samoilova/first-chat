@@ -1,0 +1,14 @@
+@mixin userBlockWithStatus {
+  position: relative;
+  box-sizing: border-box;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: $lighter-gray;
+}
+
+@mixin onMobile {
+  @media (max-width: 430px) {
+    @content;
+  }
+}

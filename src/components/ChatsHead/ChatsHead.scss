@@ -1,0 +1,38 @@
+@import '../../utils';
+
+.chats__head {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: $twenty-pixels;
+  background-color: $light-gray;
+  border-bottom: 1px solid $gray;
+
+  &__user {
+    @include userBlockWithStatus;
+
+    &:hover {
+      cursor: pointer;
+      background-color: $white;
+    }
+
+    &-logout {
+      position: absolute;
+      top: 30px;
+      left: 30px;
+      width: max-content;
+      padding: 10px;
+      border: 1px solid $light-gray;
+      border-radius: calc($twenty-pixels / 2);
+      background-color: $gray-shadow;
+
+      &:hover {
+        cursor: pointer;
+        background-color: $primary-gray;
+        border-color: black;
+        color: $white;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import '../../utils';
+
+.chats__list {
+  padding-left: $twenty-pixels;
+
+  &__title {
+    margin: $twenty-pixels 0;
+    font-weight: 400;
+    color: $optional-blue;
+  }
+
+  &__menu {
+    margin: 0;
+    padding: 0;
+    height: 95%;
+    overflow-y: scroll;
+    list-style: none;
+  }
+}

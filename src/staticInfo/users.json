@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "root",
+    "email": "root@root.ua",
+    "picture": "",
+    "password": "root",
+    "status": "online"
+  },
+  {
+    "id": 2,
+    "name": "Josefina",
+    "email": "josefina@test.ua",
+    "picture": "images/people/person5.jpg",
+    "password": "123",
+    "status": "online"
+  },
+  {
+    "id": 3,
+    "name": "Tal Gilad",
+    "email": "tal_gilad@test.ua",
+    "picture": "",
+    "password": "tal",
+    "status": "offline"
+  },
+  {
+    "id": 4,
+    "name": "Azadeh Hawkins",
+    "email": "a.hawkins@test.ua",
+    "picture": "images/people/person2.jpg",
+    "password": "test123",
+    "status": "online"
+  },
+  {
+    "id":5,
+    "name": "Michel Grover",
+    "email": "grover@test.ua",
+    "picture": "images/people/person4.jpg",
+    "password": "1234",
+    "status": "offline"
+  },
+  {
+    "id": 6,
+    "name": "Scarlett Hawkins",
+    "email": "scarlett@test.ua",
+    "picture": "images/people/person3.jpg",
+    "password": "qwer",
+    "status": "online"
+  },
+  {
+    "id": 7,
+    "name": "Max Henry",
+    "email": "maxhenry@test.ua",
+    "picture": "images/people/person6.jpg",
+    "password": "qwerty123",
+    "status": "online"
+  }
+]

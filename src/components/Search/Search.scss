@@ -1,0 +1,32 @@
+@import '../../utils';
+
+.search {
+  padding-right: $twenty-pixels;
+  height: 2rem;
+
+  &__input {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    padding-left: calc($twenty-pixels + $twenty-pixels / 2);
+    border: 1px solid $gray;
+    border-radius: $twenty-pixels;
+    background-color: $gray-shadow;
+    background-image: url('../../images/icons/search.svg');
+    background-position: calc($twenty-pixels / 2);
+    background-repeat: no-repeat;
+    background-size: 0.8rem 0.8rem;
+    color: $primary-gray;
+
+
+    &:hover {
+      border: 1px solid $primary-gray;
+    }
+
+    &:focus {
+      outline: none;
+      border: 1px solid $primary-gray;
+      background-color: $white;
+    }
+  }
+}

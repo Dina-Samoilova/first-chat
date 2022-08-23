@@ -1,6 +1,24 @@
-# Getting Started with Create React App
+# Chat with static users, and start messages
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## More about project
+
+[DEMO LINK](https://Dina-Samoilova.github.io/first-chat/)
+
+What were use: React, React Route, ReactContext, TypeScript, lodash-debounce, Momento, Classnames, jwt-decode, 
+react-notifications, sass
+
+For style were use only scss.
+
+Inject ability to loging with google account.
+
+For testing fuctionslity you may use static user login(email): root@root.ua password: root
+or use google
+
+You may fork this repository to your drafft, copy SSH or link, open editor and in terminal run npm i
+
+Hope you injoy it.
+
+Thank you, it's my first try
 
 ## Available Scripts
 
@@ -38,9 +56,3 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

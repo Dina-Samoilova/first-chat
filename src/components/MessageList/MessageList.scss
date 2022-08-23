@@ -1,0 +1,15 @@
+@import '../../utils';
+
+.chatRoom__messageList {
+  box-sizing: border-box;
+  background-color: $gray-shadow;
+  padding: 0;
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    list-style: none;
+    overflow-y: scroll;
+  }
+}

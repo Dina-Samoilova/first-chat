@@ -1,0 +1,26 @@
+@import '../../utils';
+
+.chatPage {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  box-sizing: border-box;
+
+  &--mobile {
+    @include onMobile {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__noChat {
+    padding-top: 5rem;
+    text-align: center;
+    background-color: $lighter-gray;
+
+    &--mobile {
+      @include onMobile {
+        display: none;
+      }
+    }
+  }
+}

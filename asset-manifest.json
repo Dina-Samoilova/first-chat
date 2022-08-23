@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/first-chat/static/css/main.c1e93818.css",
-    "main.js": "/first-chat/static/js/main.7a736521.js",
+    "main.css": "/first-chat/static/css/main.8d382fd6.css",
+    "main.js": "/first-chat/static/js/main.ceff0261.js",
     "static/js/787.6f726199.chunk.js": "/first-chat/static/js/787.6f726199.chunk.js",
     "static/media/person1.jpg": "/first-chat/static/media/person1.7e61fcd5fb26720a4fca.jpg",
     "static/media/person5.jpg": "/first-chat/static/media/person5.a3904a183d93b2bc2e79.jpg",
@@ -20,12 +20,12 @@
     "static/media/user.svg": "/first-chat/static/media/user.bb5177ba9a3dd3cec6a2d4cb6707e7a9.svg",
     "static/media/send-paper-plane.svg": "/first-chat/static/media/send-paper-plane.57ea2ea1b3c3109a63c7.svg",
     "static/media/send-paper-plane-dark.svg": "/first-chat/static/media/send-paper-plane-dark.5c2063a104b7e2a9e3ab.svg",
-    "main.c1e93818.css.map": "/first-chat/static/css/main.c1e93818.css.map",
-    "main.7a736521.js.map": "/first-chat/static/js/main.7a736521.js.map",
+    "main.8d382fd6.css.map": "/first-chat/static/css/main.8d382fd6.css.map",
+    "main.ceff0261.js.map": "/first-chat/static/js/main.ceff0261.js.map",
     "787.6f726199.chunk.js.map": "/first-chat/static/js/787.6f726199.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1e93818.css",
-    "static/js/main.7a736521.js"
+    "static/css/main.8d382fd6.css",
+    "static/js/main.ceff0261.js"
   ]
 }

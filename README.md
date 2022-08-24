@@ -4,7 +4,7 @@
 
 [DEMO LINK](https://Dina-Samoilova.github.io/first-chat)
 
-What were use: React, React Route, ReactContext, TypeScript, lodash-debounce, Momento, Classnames, jwt-decode, 
+What were use: React, React Route, ReactContext, TypeScript, LocalStorage and Libraries lodash-debounce, Momento, Classnames, jwt-decode, 
 react-notifications, sass
 
 For style were use only scss.
